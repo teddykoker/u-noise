@@ -103,7 +103,7 @@ python src/train_noise.py --depth 4 --channel_factor 4 --batch_size 8 \
 
 If you found this work helpful, please cite:
 
-```
+```bibtex
 @misc{koker2021unoise,
       title={U-Noise: Learnable Noise Masks for Interpretable Image Segmentation}, 
       author={Teddy Koker and Fatemehsadat Mireshghallah and Tom Titcombe and Georgios Kaissis},
