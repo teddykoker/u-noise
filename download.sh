@@ -9,11 +9,11 @@ function gdrive_download () {
 }
 
 # data
-mkdir -p data
-gdrive_download 1gPeUHtGzTcVlbnyThNRC3ShuAELpFsC8 data/images.npy
-gdrive_download 1mY6QKYCzwzAqPGAh6ppubvD_zUNJd9B0 data/labels.npy
-gdrive_download 1g8f-7ftONOSih4ssxeUcTUCVcnqmRxn4 data/bounding_boxes.npy
-gdrive_download 1yu4bNjPsXdJb8lWVzRlfh6mjwtiDdZWL data/masks.npy
+# mkdir -p data
+# gdrive_download 1gPeUHtGzTcVlbnyThNRC3ShuAELpFsC8 data/images.npy
+# gdrive_download 1mY6QKYCzwzAqPGAh6ppubvD_zUNJd9B0 data/labels.npy
+# gdrive_download 1g8f-7ftONOSih4ssxeUcTUCVcnqmRxn4 data/bounding_boxes.npy
+# gdrive_download 1yu4bNjPsXdJb8lWVzRlfh6mjwtiDdZWL data/masks.npy
 
 # models
 mkdir -p models

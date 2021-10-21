@@ -1,5 +1,6 @@
 data/*
 !data/results.pickle
+!data/prepare_data.py
 lightning_logs
 *.ckpt 
 

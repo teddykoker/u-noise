@@ -13,18 +13,18 @@ Image + Mask | U-Noise Large | Occlusion Sensitivity | Grad-CAM
 
 ## Download Data/Pre-trained Models
 
+The dataset can be created by downloading and un-taring
+[Task07_Pancreas.tar](https://drive.google.com/file/d/1YZQFSonulXuagMIfbJkZeTFJ6qEUuUxL/view?usp=sharing)
+from the [Medical Segmentation Decathlon](http://medicaldecathlon.com/) into the
+`data/` directory. Once there, run the `prepare_data.py` script within the
+directory.
+
 ```bash
 ./download.sh
 ```
 
 This will download the following files:
 ```
-data
-├── bounding_boxes.npy  # bounding boxes of pancreas (unused)
-├── images.npy          # scans
-├── labels.npy          # label (whether contains pancreas)
-└── masks.npy           # ground truth pancreas mask
-
 models
 ├── unoise_small.ckpt   # small U-Noise model
 ├── unoise_medium.ckpt  # medium U-Noise model

@@ -66,8 +66,11 @@ class SegmentationDataset(Dataset):
 
 def dataloaders(imgs, boxes, masks, batch_size):
 
+
     # mask of images where box exist
-    positive = boxes != None
+    positive = [b is not None for b in boxes]
+
+    print(sum(positive))
 
     imgs = imgs[positive]
     masks = masks[positive]
